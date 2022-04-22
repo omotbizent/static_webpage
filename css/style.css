@@ -1,0 +1,259 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.329), rgba(0, 0, 255, 0.13)),
+    url(../image/img4.jpeg);
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+}
+header {
+  background-color: white;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  z-index: 12;
+  position:fixed ;
+}
+
+header #h-one {
+  color: #5fcf80;
+  margin-left: 100px;
+  /*font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;*/
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  line-height: 1;
+  font-weight: 600;
+  font-size: 30px;
+  
+}
+
+nav {
+  margin-left: 5em;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100;
+}
+nav li {
+  display: flex;
+  display: inline;
+}
+nav .nava {
+  text-decoration: none;
+  list-style: none;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  white-space: nowrap;
+  transition: 0.3s;
+  padding: 10px 0px 10px 30px;
+}
+.nava:hover{
+    color: #5fcf80;
+}
+.sub-menu-1{
+    display:none;
+}
+nav ul li:hover .sub-menu-1{
+    display: block;
+    position:absolute;
+    background-color: white;
+    margin-left: 520px;
+    list-style-type:none;
+} 
+
+nav ul li:hover .sub-menu-1 ul{
+    display: block;
+    width: 160px;
+}
+
+nav ul li:hover .sub-menu-1 ul li{
+    text-align: left;
+    padding: 10px;
+}
+
+.get-started-btn {
+  padding: 8px 25px;
+  text-align: center;
+  border-radius: 50px;
+  background-color: #5fcf80;
+  color: white;
+  border: 1px #5fcf80 solid;
+  display: inline-block;
+  transition: 0.3s;
+  margin-left: 22px;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sec-style {
+  margin: 150px 0px 90px 120px;
+}
+#oneh {
+  margin: 0px;
+  line-height: 56px;
+  font-family: "Poppins", sans-serif;
+  font-size: 38px;
+  font-weight: 600;
+  color: white;
+}
+
+#twoh {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  color: #ffff;
+  font-size: 22px;
+}
+
+.down-btn {
+  margin-top: 30px;
+  padding: 10px 35px;
+  display: inline-block;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 40px;
+  background-color: transparent;
+  color: white;
+  border: 2px white solid;
+  font-size: 15px;
+}
+.down-btn:hover {
+  background-color: #5fcf80;
+  border: 1px #5fcf80 solid;
+  transition: 1.2s;
+}
+main {
+  background-color: white;
+  width: 100%;
+  height: 600px;
+}
+.anoda-main-div {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px;
+}
+.main {
+  width: 600px;
+  height: 450px;
+  margin-left: 50px;
+  padding-right: 30px;
+  line-height: 25px;
+}
+img {
+  /* max-width: 100%; */
+  width: 500px;
+  height: 450px;
+}
+li {
+  list-style: disc;
+}
+.num-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ebeeeb;
+  width: 100%;
+  height: 150px;
+  font-size: 40px;
+  text-align: center;
+}
+.num-one {
+  margin: auto;
+  padding: 30px 0px;
+  color: #5fcf80;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.num-container #stud {
+  font-size: 15px;
+  color: #646664;
+}
+.down-container {
+  background-color: white;
+  width: 100%;
+  height: 500px;
+  padding: 5px;
+}
+.down-cover {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.down-one {
+  background-color: #5fcf80;
+  width: 300px;
+  height: 431.6px;
+  /* border-radius: 10px black solid;  didn't work why? */
+  margin-right: 20px;
+  border: 1px #5fcf80 solid;
+  text-align: left;
+  color: #f6f7f6;
+  padding: 40px 12px 0px 12px;
+}
+.h-3 {
+  font-weight: 700;
+  font-size: 34px;
+  font-family: "Raleway", sans-serif;
+}
+#small {
+  font-size: 18px;
+  color: #eef0ef;
+}
+
+.more-btn {
+  text-decoration: none;
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 6px 30px 8px 30px;
+  margin-left: 50px;
+  color: #fff;
+  border-radius: 50px;
+  transition: all ease-in-out 0.4s;
+}
+.more-btn:hover {
+  background-color: #fff;
+  color: green;
+  transition: 1.3s;
+}
+
+.down-two {
+  background-color: white;
+  width: 253.333px;
+  height: 364px;
+  border: 1px #37423b solid;
+  margin-top: 30px;
+  margin-right: 15px;
+  font-size: 19px;
+  text-align: center;
+  background: #fff;
+  padding: 20px 5px;
+  border: 1px solid #eef0ef;
+}
+#parag {
+  text-align: center;
+  color: #848484;
+}
+#h-4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 30px 0;
+}
+.img1 {
+  /* margin: auto; */
+  /* align-items: center; */
+  width: 90px;
+  height: 70px;
+  margin: 0 0;
+}
